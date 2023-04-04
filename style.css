@@ -1,5 +1,5 @@
 body {
-    margin: 50px 100px 0px 100px;
+    margin: 30px 100px 0px 100px;
 }
 
 /*-----------
@@ -39,8 +39,64 @@ link-button
     font-size: 15px;
     border-radius: 5px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .fa-greater-than {
     margin-left: 5px;
+}
+
+/* -----------
+website-middle section
+----------------------*/
+
+/* -----
+side-update
+---------- */
+.update-button {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    width: 250px;
+    height: 255px;
+    border-radius: 10px;
+}
+
+/*--------
+Actual button set
+---------- */
+.button {
+    background-color: white;
+    margin: 30px 10px 0px 25px;
+    padding: 13px 12px 13px 12px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button1 {
+    margin-top: 30px;
+}
+
+/*-----------
+ hover on update button
+ ------------- */
+.button1:hover {
+    background-color: red;
+    color: white;
+}
+
+.button2:hover {
+    background-color: red;
+    color: white;
+}
+
+.button3:hover {
+    background-color: red;
+    color: white;
 }
