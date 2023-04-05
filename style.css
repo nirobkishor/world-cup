@@ -49,6 +49,9 @@ link-button
 /* -----------
 website-middle section
 ----------------------*/
+.middle {
+    display: flex;
+}
 
 /* -----
 side-update
@@ -99,4 +102,52 @@ Actual button set
 .button3:hover {
     background-color: red;
     color: white;
+}
+
+/*---------
+grid-blog
+---------  */
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-item {
+    width: 300px;
+    height: 315px;
+    font-size: 20px;
+    border: 1px solid rgb(227, 226, 226);
+    border-radius: 10px;
+    margin: 10px 8px 5px 8px;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.transfer-button {
+    text-decoration: none;
+    background-color: white;
+    border-color: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 15px 3px 15px;
+    cursor: pointer;
+}
+
+.time-chat {
+    display: flex;
+    align-items: center;
+}
+
+.margin-set2 {
+    margin-left: 15px;
+}
+
+.margin-set {
+    margin-left: 5px;
+}
+
+.margin-set1 {
+    margin-left: 15px;
+    margin-top: 5px;
 }
