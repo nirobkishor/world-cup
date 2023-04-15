@@ -181,3 +181,15 @@ footer>a {
     text-decoration: none;
     color: #bbbaba;
 }
+
+/* ---------
+----update
+------------------ */
+.blog-item2 {
+    width: 230px;
+    height: 220px;
+    border: 1px solid rgb(227, 226, 226);
+    border-radius: 10px;
+    margin: 0px 0px 15px 15px;
+    padding: 25px 0px 0px 25px;
+}
