@@ -7,11 +7,11 @@
     color: white;
     padding: 10px 100px 0px 50px;
     margin-bottom: 100px;
-    margin-left: 80px;
+    margin-left: 130px;
     margin-top: 30px;
     border-radius: 20px;
     font-size: 20px;
-    width: 875px;
+    width: 915px;
     height: 500px;
 }
 
@@ -51,7 +51,7 @@ website-middle section
 ----------------------*/
 .middle {
     display: flex;
-    margin-left: 80px;
+    margin-left: 130px;
 }
 
 /* -----
@@ -60,8 +60,8 @@ side-update
 .update-button {
     display: flex;
     flex-direction: column;
-    background-color: black;
     color: white;
+    background-color: black;
     width: 250px;
     height: 225px;
     border-radius: 10px;
@@ -111,7 +111,7 @@ grid-blog
 }
 
 .blog-item {
-    width: 243px;
+    width: 255px;
     height: 265px;
     font-size: 15px;
     border: 1px solid rgb(227, 226, 226);
@@ -176,10 +176,20 @@ hr {
     background-color: gray;
 }
 
-footer>a {
+.footer-1>a {
     margin: 50px 10px 0px 10px;
     text-decoration: none;
     color: #bbbaba;
+}
+
+.footer-2>a {
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #bbbaba;
+}
+
+.footer-2 {
+    margin-top: 30px;
 }
 
 /* ---------
@@ -187,9 +197,81 @@ footer>a {
 ------------------ */
 .blog-item2 {
     width: 230px;
-    height: 220px;
+    height: 170px;
     border: 1px solid rgb(227, 226, 226);
     border-radius: 10px;
     margin: 0px 0px 15px 15px;
     padding: 25px 0px 0px 25px;
+    align-content: center;
+}
+
+.blog-item2>div>img {
+    width: 40%;
+}
+
+.blog-item2>h5 {
+    color: rgb(120, 118, 118);
+}
+
+/*----------
+below-button
+-------------  */
+.below-button {
+    background-color: rgb(228, 17, 17);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 90px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* --------
+media-query
+----------- */
+
+@media only screen and (min-width:767px) and (max-width:1023px) {
+    .middle {
+        flex-direction: column;
+    }
+
+    .update-button {
+        display: none;
+    }
+
+    .para-span {
+        display: none;
+    }
+
+    .font {
+        font-size: 35px;
+    }
+
+    .upper {
+        width: 65%;
+        height: 75%;
+    }
+
+    .link-button {
+        width: 40%;
+        margin-top: 2px;
+    }
+
+    .below-button {
+        margin-left: 220px;
+    }
+
+    .grid-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .below-button {
+        display: none;
+    }
 }
